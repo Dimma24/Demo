@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<htm land="eng">
+    <head>
+        <title>I am human !</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <!-- Due thursday -->
+        <!-- read up
+            read from css home to css position
+         -->
+        <!-- Chidimma's assignment
+            1. seperate the style sheet 
+            2. convert it to a signup form
+            3. change the colors - preferably use a 3 color scheme of your choice
+            4. use differnt fonts (an imported font
+        -->					
+		    <style>
+            body{
+                background-color: #ff6b6c;
+                color: red;
+                font-family: atial;
+            }
+            section{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 97vh;
+                width: 99vw;
+            }
+            button{         
+                padding: 10px 25px;
+                background-color: transparent;
+                color: #fff;
+                border: 2px solid #fff;
+                border-radius: 50px;
+                margin-top: 30px;
+            }
+            #my-form{
+                text-align: center;
+            }
+             .form input{
+                display: block;
+                margin: 10px 0;
+            }
+            .form-row label{
+                /* text-transform: uppercase; */
+            }
+            .form-row input{
+                width: 30vw;
+                border-radius: 30px;
+                border: 2px solid;
+                height: 30px;
+            }
+        </style>
+		<!-- <link rel="stylesheet" href="style.css"> -->
+    
+    </head>
+
+    <body>  
+        <section id="login">
+            <form id="my-form">
+                <div class="form">
+                    <label>Username</label>
+                    <input>
+                </div>                
+                <div class="form-row">
+                    <label>Password</label>
+                    <input>
+                </div>
+                <div class="form-row">
+                    <button>Help!</button>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>

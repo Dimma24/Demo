@@ -1,0 +1,10 @@
+ <link href="style.css" rel="stylesheet" type="text/css">
+        <!-- Due thursday -->
+        <!-- read up
+            read from css home to css position
+         -->
+        <!-- Chidimma's assignment
+            1. seperate the style sheet 
+            2. convert it to a signup form
+            3. change the colors - preferably use a 3 color scheme of your choice
+            4. use differnt fonts (an imported font			
